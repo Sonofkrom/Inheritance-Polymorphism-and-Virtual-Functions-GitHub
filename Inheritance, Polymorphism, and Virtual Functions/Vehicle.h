@@ -12,6 +12,7 @@ public:
 	int getYear();
 	void setManufact(std::string);
 	void setYear(int);
+	void displayInfo();
 };
 
 #endif

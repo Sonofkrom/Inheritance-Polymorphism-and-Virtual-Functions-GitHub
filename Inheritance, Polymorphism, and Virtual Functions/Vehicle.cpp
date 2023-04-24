@@ -1,4 +1,5 @@
 #include "Vehicle.h"
+#include <iostream>
 
 Vehicle::Vehicle(std::string x, int y) {
 	manufact = x;
@@ -19,4 +20,8 @@ void Vehicle::setManufact(std::string x) {
 
 void Vehicle::setYear(int x) {
 	year = x;
+}
+
+void Vehicle::displayInfo() {
+	std::cout << "\nVehicle Information:\nManufacturer: " << manufact << "\nYear Built: " << year;
 }
